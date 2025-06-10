@@ -53,3 +53,20 @@ omf install bobthefish                                                          
 Updating https://github.com/oh-my-fish/packages-main master... Done!
 Installing package bobthefish
 ```
+
+# Install fastfetch
+```
+apk add fastfetch
+```
+
+# Blank out /etc/motd
+
+# Add fastfetch to ~/.config/fish/config.fish
+
+```
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+
+fastfetch
+```
