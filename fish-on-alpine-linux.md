@@ -70,3 +70,12 @@ end
 
 fastfetch
 ```
+# Alternate method 
+
+## Clone the repo
+```
+git clone https://github.com/jahnin/fish-shell
+
+chmod +x setup-fish-alpine.sh
+sudo ./setup-fish-alpine.sh your_username
+```
